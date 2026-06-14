@@ -1,0 +1,44 @@
+# Entorno virtual Python
+env/
+venv/
+.venv/
+ENV/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Modelos MediaPipe (archivos grandes, descargar por separado)
+*.task
+
+# Imágenes de salida generadas
+salida.jpg
+salida_*.jpg
+output*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno
+.env
+.env.local
